@@ -1,1 +1,16 @@
 // Mixins Here
+.button(@size, @radius) {
+    background: @btn-bg-color;
+    border-radius: @radius;
+    color: @wild-sand;
+    font-size: @size;
+}
+.formatting(@left, @bottom) {
+    padding-left: @left;
+    padding-bottom: @bottom;
+}
+
+.display(@direction){
+    display: flex;
+    flex-direction: @direction;
+}
