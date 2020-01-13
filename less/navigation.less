@@ -9,8 +9,10 @@
     padding-bottom: 1.5%;
     background: @footer-background;
     color: @river-bend;
-    position: fixed;
-    top: 0;
+
+    &:hover {
+        opacity: .5;
+    }
 
     nav {
         display: flex;
@@ -18,5 +20,9 @@
         padding-top: 1%;
         justify-content: space-between;
         align-content: flex-end;
+
+        &:hover {
+            color: darken(black, 100%);
+        }
     }
 }

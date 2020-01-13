@@ -177,8 +177,9 @@ img {
   padding-bottom: 1.5%;
   background: #F6F6F6;
   color: #454A59;
-  position: fixed;
-  top: 0;
+}
+.navigation:hover {
+  opacity: 0.5;
 }
 .navigation nav {
   display: flex;
@@ -186,6 +187,9 @@ img {
   padding-top: 1%;
   justify-content: space-between;
   align-content: flex-end;
+}
+.navigation nav:hover {
+  color: #000000;
 }
 footer {
   color: #22283B;
@@ -268,7 +272,6 @@ p {
 @media (max-width: (max-width: 500px)) {
   .space-images {
     justify-content: center;
-    flex-direction: column;
   }
 }
 @media (max-width: (max-width: 500px)) {
