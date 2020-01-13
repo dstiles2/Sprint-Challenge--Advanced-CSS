@@ -177,6 +177,8 @@ img {
   padding-bottom: 1.5%;
   background: #F6F6F6;
   color: #454A59;
+  position: fixed;
+  top: 0;
 }
 .navigation nav {
   display: flex;
