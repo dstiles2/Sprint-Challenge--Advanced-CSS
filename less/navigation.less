@@ -10,11 +10,9 @@
     background: @footer-background;
     color: @river-bend;
 
-    &:hover {
-        opacity: .5;
-    }
     @media @phone {
         justify-content: center;
+        width: 100%;
     }
 
     nav {
@@ -26,6 +24,10 @@
 
         &:hover {
             color: darken(black, 100%);
+        }
+        @media @phone {
+            justify-content: space-around;
+            width:100%;
         }
     }
 }
